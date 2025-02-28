@@ -1,0 +1,1 @@
+This is a sample application that validate submitted code if the the code consist of 6digites and last digit is not 7
