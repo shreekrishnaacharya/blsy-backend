@@ -20,6 +20,10 @@ app.post('/api/verify', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.send('Blys is running!');
+});
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
